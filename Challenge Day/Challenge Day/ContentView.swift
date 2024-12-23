@@ -161,7 +161,7 @@ struct ContentView: View {
         }
         
         questionCounter += 1
-        if questionCounter >= 1 {
+        if questionCounter >= 8 {
             showingDone = true
         }
         else {
